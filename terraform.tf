@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  # cloud {
+  #   organization = "Davjos"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "tfc-learning"
+  #   }
+  # }
 
   required_providers {
     aws = {
